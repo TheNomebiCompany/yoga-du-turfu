@@ -6,7 +6,10 @@
   "scripts": {
     "start": "npm-run-all --parallel start:*",
     "start:api": "cd yoga-api && npm start",
-    "start:front": "cd yoga && npm start"
+    "start:front": "cd yoga && npm start",
+    "install": "npm-run-all --parallel install:*",
+    "install:api": "cd yoga-api && npm i",
+    "install:front": "cd yoga && npm i"
   },
   "repository": "https://github.com/TheNomebiCompany/yoga-du-turfu",
   "author": "['Romaric Ruga', 'Cedric Guerin']",
