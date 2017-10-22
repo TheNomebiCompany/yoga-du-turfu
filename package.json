@@ -1,0 +1,17 @@
+{
+  "name": "yoga",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:api": "cd yoga-api && npm start",
+    "start:front": "cd yoga && npm start"
+  },
+  "repository": "https://github.com/TheNomebiCompany/yoga-du-turfu",
+  "author": "['Romaric Ruga', 'Cedric Guerin']",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.1"
+  }
+}
